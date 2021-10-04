@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hypoalgesia",
+  "version": "${version}",
+  "name": "Hypoalgesia",
+  "description": "Removes screen tilt on damage",
+  "authors": [
+    "ExternalTime"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/hypoalgesia/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "hypoalgesia.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "minecraft": "1.17.1"
+  }
+}
