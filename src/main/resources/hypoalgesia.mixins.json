@@ -3,9 +3,8 @@
   "minVersion": "0.8",
   "package": "com.github.externaltime.hypoalgesia.mixin",
   "compatibilityLevel": "JAVA_16",
-  "mixins": [
-  ],
   "client": [
+    "GameRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
